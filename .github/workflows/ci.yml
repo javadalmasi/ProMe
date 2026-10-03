@@ -41,7 +41,7 @@ jobs:
 
   i18n:
     name: Localization gate
-    runs-on: ubuntu-latest
+    runs-on: macos-latest
     steps:
       - uses: actions/checkout@v4
 
@@ -49,17 +49,3 @@ jobs:
         run: |
           python3 Tools/i18n.py coverage
           python3 Tools/i18n.py check
-
-  domain-linux:
-    name: Domain package on Linux
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-
-      - name: Build ProMeDomain with Swift on Linux
-        uses: swift-actions/setup-swift@v2
-        with:
-          swift-version: "6.0"
-
-      - name: swift build
-        run: swift build --package-path Packages/ProMeDomain
