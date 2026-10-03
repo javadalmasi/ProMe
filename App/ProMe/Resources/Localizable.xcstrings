@@ -1,0 +1,5622 @@
+{
+  "sourceLanguage": "en",
+  "strings": {
+    "%1$@: %2$@ is due on %3$@.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@: مبلغ %2$@ در تاریخ %3$@ سررسید می‌شود."
+          }
+        }
+      }
+    },
+    "%@: %@ is due on %@.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@: مبلغ %2$@ در تاریخ %3$@ سررسید می‌شود."
+          }
+        }
+      }
+    },
+    "%lld accounts": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld حساب"
+          }
+        }
+      }
+    },
+    "%lld active alert(s)": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld هشدار فعال"
+          }
+        }
+      }
+    },
+    "%lld hour(s) before": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld ساعت قبل"
+          }
+        }
+      }
+    },
+    "%lld min": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld دقیقه"
+          }
+        }
+      }
+    },
+    "%lld minutes before": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld دقیقه قبل"
+          }
+        }
+      }
+    },
+    "%lld months": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld ماه"
+          }
+        }
+      }
+    },
+    "%lld of %lld paid": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld از %lld پرداخت شده"
+          }
+        }
+      }
+    },
+    "%lld possible duplicates found": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld تکراری احتمالی پیدا شد"
+          }
+        }
+      }
+    },
+    "%lld rows found": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld سطر پیدا شد"
+          }
+        }
+      }
+    },
+    "%lld task(s) completed today 🎉": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld کار امروز انجام شد 🎉"
+          }
+        }
+      }
+    },
+    "%lld transactions": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld تراکنش"
+          }
+        }
+      }
+    },
+    "1 day before": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "۱ روز قبل"
+          }
+        }
+      }
+    },
+    "1 hour before": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "۱ ساعت قبل"
+          }
+        }
+      }
+    },
+    "15 minutes before": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "۱۵ دقیقه قبل"
+          }
+        }
+      }
+    },
+    "30 minutes before": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "۳۰ دقیقه قبل"
+          }
+        }
+      }
+    },
+    "5 minutes before": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "۵ دقیقه قبل"
+          }
+        }
+      }
+    },
+    "A single accounting entry cannot mix currencies.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "یک قلم حسابداری نمی‌تواند ارزهای مختلف داشته باشد."
+          }
+        }
+      }
+    },
+    "About": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "درباره"
+          }
+        }
+      }
+    },
+    "Access Key": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "کلید دسترسی"
+          }
+        }
+      }
+    },
+    "Account": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "حساب"
+          }
+        }
+      }
+    },
+    "Account Name": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "نام حساب"
+          }
+        }
+      }
+    },
+    "Account Number": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "شماره حساب"
+          }
+        }
+      }
+    },
+    "Accounts": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "حساب‌ها"
+          }
+        }
+      }
+    },
+    "Accounts with history are archived instead.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "حساب‌های دارای سابقه به‌جای حذف، بایگانی می‌شوند."
+          }
+        }
+      }
+    },
+    "Activity": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "فعالیت"
+          }
+        }
+      }
+    },
+    "Add": {
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "افزودن"
+          }
+        }
+      }
+    },
+    "Add Budget": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "افزودن بودجه"
+          }
+        }
+      }
+    },
+    "Add a category to organize this kind.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "برای دسته‌بندی این نوع، یک دسته اضافه کنید."
+          }
+        }
+      }
+    },
+    "Add an account and record your first transaction to see the dashboard come alive.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "یک حساب اضافه کنید و اولین تراکنش را ثبت کنید تا میزکار زنده شود."
+          }
+        }
+      }
+    },
+    "Add your first bank account, card or cash wallet.": {
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "اولین حساب بانکی، کارت یا کیف پول نقد را اضافه کنید."
+          }
+        }
+      }
+    },
+    "Add your first task with the + button.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "اولین کارتان را با دکمه + اضافه کنید."
+          }
+        }
+      }
+    },
+    "Adjustment": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "تعدیل"
+          }
+        }
+      }
+    },
+    "Alert": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "هشدار"
+          }
+        }
+      }
+    },
+    "Alerts": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "هشدارها"
+          }
+        }
+      }
+    },
+    "Alerts & Activities": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "هشدارها و فعالیت‌ها"
+          }
+        }
+      }
+    },
+    "Alerts remind you once or repeatedly — daily, weekly or monthly.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "هشدارها یک‌باره یا تکراری‌اند — روزانه، هفتگی یا ماهانه."
+          }
+        }
+      }
+    },
+    "All": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "همه"
+          }
+        }
+      }
+    },
+    "All Time": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "همه دوره‌ها"
+          }
+        }
+      }
+    },
+    "All day": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "تمام روز"
+          }
+        }
+      }
+    },
+    "Amount": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "مبلغ"
+          }
+        }
+      }
+    },
+    "Amount Mode": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "حالت مبلغ"
+          }
+        }
+      }
+    },
+    "An accounting entry needs at least two lines.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "یک قلم حسابداری به حداقل دو سطر نیاز دارد."
+          }
+        }
+      }
+    },
+    "An item named “%@” already exists.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "آیتمی به نام «%@» از قبل وجود دارد."
+          }
+        }
+      }
+    },
+    "Annual Rate": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "نرخ سالانه"
+          }
+        }
+      }
+    },
+    "Annual Rate %": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "نرخ سالانه ٪"
+          }
+        }
+      }
+    },
+    "App Balance": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "موجودی برنامه"
+          }
+        }
+      }
+    },
+    "App Language": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "زبان برنامه"
+          }
+        }
+      }
+    },
+    "Appointment": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "قرار"
+          }
+        }
+      }
+    },
+    "Appointment Reminder": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "یادآور قرار"
+          }
+        }
+      }
+    },
+    "Appointments": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "قرارها"
+          }
+        }
+      }
+    },
+    "Archive": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "بایگانی"
+          }
+        }
+      }
+    },
+    "Archived": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "بایگانی‌شده"
+          }
+        }
+      }
+    },
+    "As Of": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "تا تاریخ"
+          }
+        }
+      }
+    },
+    "Asset": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "دارایی"
+          }
+        }
+      }
+    },
+    "Assets": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "دارایی‌ها"
+          }
+        }
+      }
+    },
+    "At time of event": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "هم‌زمان با رویداد"
+          }
+        }
+      }
+    },
+    "Automate rent, premiums and salaries so nothing is forgotten.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "اجاره، بیمه و حقوق را خودکار کنید تا چیزی فراموش نشود."
+          }
+        }
+      }
+    },
+    "Back": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "بازگشت"
+          }
+        }
+      }
+    },
+    "Backup": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "پشتیبان‌گیری"
+          }
+        }
+      }
+    },
+    "Backup History": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "تاریخچه پشتیبان"
+          }
+        }
+      }
+    },
+    "Backup Now": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "پشتیبان‌گیری فوری"
+          }
+        }
+      }
+    },
+    "Backup completed.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "پشتیبان‌گیری انجام شد."
+          }
+        }
+      }
+    },
+    "Backups are portable SQLite files in a dated folder.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "پشتیبان‌ها فایل‌های SQLite قابل حمل در یک پوشه با تاریخ هستند."
+          }
+        }
+      }
+    },
+    "Balance": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "موجودی"
+          }
+        }
+      }
+    },
+    "Bank": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "بانک"
+          }
+        }
+      }
+    },
+    "Bank Name": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "نام بانک"
+          }
+        }
+      }
+    },
+    "Bank Statement Balance": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "موجودی صورت‌حساب بانک"
+          }
+        }
+      }
+    },
+    "Beginning Balance": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "موجودی اولیه"
+          }
+        }
+      }
+    },
+    "Book Value": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ارزش دفتری"
+          }
+        }
+      }
+    },
+    "Bucket": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "سطل"
+          }
+        }
+      }
+    },
+    "Budgets": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "بودجه‌ها"
+          }
+        }
+      }
+    },
+    "Built by the free software group.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ساخته گروه نرم‌افزار آزاد."
+          }
+        }
+      }
+    },
+    "Built-in": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "پیش‌فرض"
+          }
+        }
+      }
+    },
+    "Business Name": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "نام کسب‌وکار"
+          }
+        }
+      }
+    },
+    "Businesses": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "کسب‌وکارها"
+          }
+        }
+      }
+    },
+    "Calendar": {
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "تقویم"
+          }
+        }
+      }
+    },
+    "Cancel": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "انصراف"
+          }
+        }
+      }
+    },
+    "Cancel Policy": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "لغو بیمه‌نامه"
+          }
+        }
+      }
+    },
+    "Cancelled": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "لغوشده"
+          }
+        }
+      }
+    },
+    "Cannot Import": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ورود ممکن نیست"
+          }
+        }
+      }
+    },
+    "Cannot Save": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ذخیره ممکن نیست"
+          }
+        }
+      }
+    },
+    "Car Insurance": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "بیمه خودرو"
+          }
+        }
+      }
+    },
+    "Card": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "کارت"
+          }
+        }
+      }
+    },
+    "Card Number": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "شماره کارت"
+          }
+        }
+      }
+    },
+    "Cash": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "نقدی"
+          }
+        }
+      }
+    },
+    "Cash Flow": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "جریان نقدی"
+          }
+        }
+      }
+    },
+    "Categories": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "دسته‌بندی‌ها"
+          }
+        }
+      }
+    },
+    "Categories with transactions cannot be deleted.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "دسته‌بندی‌های دارای تراکنش قابل حذف نیستند."
+          }
+        }
+      }
+    },
+    "Category": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "دسته‌بندی"
+          }
+        }
+      }
+    },
+    "Choose File": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "انتخاب فایل"
+          }
+        }
+      }
+    },
+    "Choose File…": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "انتخاب فایل…"
+          }
+        }
+      }
+    },
+    "Choose a category first.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "اول دسته‌بندی را انتخاب کنید."
+          }
+        }
+      }
+    },
+    "Choose an account first.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "اول حساب را انتخاب کنید."
+          }
+        }
+      }
+    },
+    "Choose where to store the backup folder.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "محل ذخیره پوشه پشتیبان را انتخاب کنید."
+          }
+        }
+      }
+    },
+    "Choose…": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "انتخاب کنید…"
+          }
+        }
+      }
+    },
+    "Clear": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "پاک کردن"
+          }
+        }
+      }
+    },
+    "Clear Filters": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "پاک کردن فیلترها"
+          }
+        }
+      }
+    },
+    "Close": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "بستن"
+          }
+        }
+      }
+    },
+    "Color": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "رنگ"
+          }
+        }
+      }
+    },
+    "Completed": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "انجام‌شده"
+          }
+        }
+      }
+    },
+    "Confirm Password": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "تأیید گذرواژه"
+          }
+        }
+      }
+    },
+    "Confirmed": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "تأییدشده"
+          }
+        }
+      }
+    },
+    "Contract Number": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "شماره قرارداد"
+          }
+        }
+      }
+    },
+    "Copy Report": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "کپی گزارش"
+          }
+        }
+      }
+    },
+    "Could not decrypt the snapshot. The password or key is wrong.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "رمزگشایی اسنپ‌شات ممکن نشد. گذرواژه یا کلید اشتباه است."
+          }
+        }
+      }
+    },
+    "Could not open the database": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "باز کردن پایگاه داده ممکن نشد"
+          }
+        }
+      }
+    },
+    "Counterparty": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "طرف حساب"
+          }
+        }
+      }
+    },
+    "Create Encrypted Vault": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ساخت گاوصندوق رمزنگاری‌شده"
+          }
+        }
+      }
+    },
+    "Create a new vault (first device)": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ساخت گاوصندوق جدید (دستگاه اول)"
+          }
+        }
+      }
+    },
+    "Credit": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "بستانکار"
+          }
+        }
+      }
+    },
+    "Currencies do not match: expected %@ but got %@.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ارزها مطابقت ندارند: انتظار %@ اما %@ دریافت شد."
+          }
+        }
+      }
+    },
+    "Currency": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ارز"
+          }
+        }
+      }
+    },
+    "Current": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "جاری"
+          }
+        }
+      }
+    },
+    "Current Value": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ارزش فعلی"
+          }
+        }
+      }
+    },
+    "Daily": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "روزانه"
+          }
+        }
+      }
+    },
+    "Daily Activities": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "فعالیت‌های روزانه"
+          }
+        }
+      }
+    },
+    "Daily Tasks": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "کارهای روزانه"
+          }
+        }
+      }
+    },
+    "Dashboard": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "میزکار"
+          }
+        }
+      }
+    },
+    "Date": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "تاریخ"
+          }
+        }
+      }
+    },
+    "Date & time": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "تاریخ و ساعت"
+          }
+        }
+      }
+    },
+    "Dates are stored in the standard calendar and only displayed in your calendar.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "تاریخ‌ها با تقویم استاندارد ذخیره و فقط در تقویم شما نمایش داده می‌شوند."
+          }
+        }
+      }
+    },
+    "Debit": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "بدهکار"
+          }
+        }
+      }
+    },
+    "Debit & Credit Columns": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ستون‌های بدهکار و بستانکار"
+          }
+        }
+      }
+    },
+    "Debts & Receivables": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "بدهی‌ها و طلب‌ها"
+          }
+        }
+      }
+    },
+    "Default": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "پیش‌فرض"
+          }
+        }
+      }
+    },
+    "Delete": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "حذف"
+          }
+        }
+      }
+    },
+    "Delete this account?": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "این حساب حذف شود؟"
+          }
+        }
+      }
+    },
+    "Delete this asset?": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "این دارایی حذف شود؟"
+          }
+        }
+      }
+    },
+    "Delete this business?": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "این کسب‌وکار حذف شود؟"
+          }
+        }
+      }
+    },
+    "Delete this category?": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "این دسته‌بندی حذف شود؟"
+          }
+        }
+      }
+    },
+    "Delete this debt?": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "این بدهی حذف شود؟"
+          }
+        }
+      }
+    },
+    "Delete this insurance?": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "این بیمه حذف شود؟"
+          }
+        }
+      }
+    },
+    "Delete this loan?": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "این وام حذف شود؟"
+          }
+        }
+      }
+    },
+    "Delete this transaction?": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "این تراکنش حذف شود؟"
+          }
+        }
+      }
+    },
+    "Delete this transfer?": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "این انتقال حذف شود؟"
+          }
+        }
+      }
+    },
+    "Description": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "توضیح"
+          }
+        }
+      }
+    },
+    "Details": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "جزئیات"
+          }
+        }
+      }
+    },
+    "Development": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "توسعه"
+          }
+        }
+      }
+    },
+    "Diagnostics": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "عیب‌یابی"
+          }
+        }
+      }
+    },
+    "Difference": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "اختلاف"
+          }
+        }
+      }
+    },
+    "Digits": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "اعداد"
+          }
+        }
+      }
+    },
+    "Disconnect": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "قطع اتصال"
+          }
+        }
+      }
+    },
+    "Done": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "پایان"
+          }
+        }
+      }
+    },
+    "Due": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "سررسید"
+          }
+        }
+      }
+    },
+    "Due Day": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "روز سررسید"
+          }
+        }
+      }
+    },
+    "Duplicate": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "تکرار"
+          }
+        }
+      }
+    },
+    "Edit": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ویرایش"
+          }
+        }
+      }
+    },
+    "Edit Alert": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ویرایش هشدار"
+          }
+        }
+      }
+    },
+    "Edit Appointment": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ویرایش قرار"
+          }
+        }
+      }
+    },
+    "Edit Note": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ویرایش یادداشت"
+          }
+        }
+      }
+    },
+    "Edit Task": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ویرایش کار"
+          }
+        }
+      }
+    },
+    "Electronics": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "لوازم الکترونیکی"
+          }
+        }
+      }
+    },
+    "End Date": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "تاریخ پایان"
+          }
+        }
+      }
+    },
+    "Ending Balance": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "موجودی پایانی"
+          }
+        }
+      }
+    },
+    "Endpoint": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "نقطه اتصال"
+          }
+        }
+      }
+    },
+    "Ends": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "پایان"
+          }
+        }
+      }
+    },
+    "English": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "انگلیسی"
+          }
+        }
+      }
+    },
+    "Enjoy!": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "خوش بگذرد!"
+          }
+        }
+      }
+    },
+    "Enter 0 to remove this budget.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "برای حذف این بودجه صفر را وارد کنید."
+          }
+        }
+      }
+    },
+    "Enter a valid amount.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "مبلغ معتبری وارد کنید."
+          }
+        }
+      }
+    },
+    "Equipment": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "تجهیزات"
+          }
+        }
+      }
+    },
+    "Every %lld": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "هر %lld"
+          }
+        }
+      }
+    },
+    "Every Day": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "هر روز"
+          }
+        }
+      }
+    },
+    "Every Month": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "هر ماه"
+          }
+        }
+      }
+    },
+    "Every Week": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "هر هفته"
+          }
+        }
+      }
+    },
+    "Expense": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "هزینه"
+          }
+        }
+      }
+    },
+    "Expense Category": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "دسته هزینه"
+          }
+        }
+      }
+    },
+    "Expense This Month": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "هزینه این ماه"
+          }
+        }
+      }
+    },
+    "Expense by Category": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "هزینه بر اساس دسته"
+          }
+        }
+      }
+    },
+    "Export CSV": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "خروجی CSV"
+          }
+        }
+      }
+    },
+    "Exported successfully.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "خروجی با موفقیت گرفته شد."
+          }
+        }
+      }
+    },
+    "Failed Rows": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "سطرهای ناموفق"
+          }
+        }
+      }
+    },
+    "Family": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "خانواده"
+          }
+        }
+      }
+    },
+    "Favorite": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "علاقه‌مندی"
+          }
+        }
+      }
+    },
+    "Filter": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "فیلتر"
+          }
+        }
+      }
+    },
+    "Finance": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "مالی"
+          }
+        }
+      }
+    },
+    "Financial amounts are never logged.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "مبالغ مالی هرگز ثبت نمی‌شوند."
+          }
+        }
+      }
+    },
+    "Find on Map": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "یافتن روی نقشه"
+          }
+        }
+      }
+    },
+    "First Row Is Header": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "سطر اول عنوان است"
+          }
+        }
+      }
+    },
+    "Foreign Currency": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ارزی"
+          }
+        }
+      }
+    },
+    "Frequency": {
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "دوره تکرار"
+          }
+        }
+      }
+    },
+    "Friends": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "دوستان"
+          }
+        }
+      }
+    },
+    "From": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "از"
+          }
+        }
+      }
+    },
+    "GPL-3.0-or-later": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "GPL-3.0-or-later"
+          }
+        }
+      }
+    },
+    "General": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "عمومی"
+          }
+        }
+      }
+    },
+    "Gregorian": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "میلادی"
+          }
+        }
+      }
+    },
+    "Has Due Date": {
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "تاریخ سررسید دارد"
+          }
+        }
+      }
+    },
+    "Has End Date": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "تاریخ پایان دارد"
+          }
+        }
+      }
+    },
+    "Has due date": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "تاریخ سررسید دارد"
+          }
+        }
+      }
+    },
+    "Has duration": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "مدت زمان دارد"
+          }
+        }
+      }
+    },
+    "Has end": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "پایان دارد"
+          }
+        }
+      }
+    },
+    "Health": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "سلامت"
+          }
+        }
+      }
+    },
+    "Health Insurance": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "بیمه درمان"
+          }
+        }
+      }
+    },
+    "High": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "زیاد"
+          }
+        }
+      }
+    },
+    "Home": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "خانه"
+          }
+        }
+      }
+    },
+    "Hourly alert": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "هشدار ساعتی"
+          }
+        }
+      }
+    },
+    "IBAN": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "شبا"
+          }
+        }
+      }
+    },
+    "IBAN (Sheba)": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "شبا"
+          }
+        }
+      }
+    },
+    "Import": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ورود"
+          }
+        }
+      }
+    },
+    "Import CSV…": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ورود CSV…"
+          }
+        }
+      }
+    },
+    "Import Finished": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ورود انجام شد"
+          }
+        }
+      }
+    },
+    "Import from CSV": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ورود از CSV"
+          }
+        }
+      }
+    },
+    "Important": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "مهم"
+          }
+        }
+      }
+    },
+    "Important Alert": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "هشدار مهم"
+          }
+        }
+      }
+    },
+    "Imported": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "واردشده"
+          }
+        }
+      }
+    },
+    "Include time": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "با ساعت"
+          }
+        }
+      }
+    },
+    "Income": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "درآمد"
+          }
+        }
+      }
+    },
+    "Income & Expense": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "درآمد و هزینه"
+          }
+        }
+      }
+    },
+    "Income Category": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "دسته درآمد"
+          }
+        }
+      }
+    },
+    "Income This Month": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "درآمد این ماه"
+          }
+        }
+      }
+    },
+    "Income by Category": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "درآمد بر اساس دسته"
+          }
+        }
+      }
+    },
+    "Income vs Expense": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "درآمد در مقابل هزینه"
+          }
+        }
+      }
+    },
+    "Info": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "اطلاع"
+          }
+        }
+      }
+    },
+    "Insights": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "تحلیل‌ها"
+          }
+        }
+      }
+    },
+    "Installments": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "اقساط"
+          }
+        }
+      }
+    },
+    "Insurance": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "بیمه"
+          }
+        }
+      }
+    },
+    "Invalid Sheba": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "شبای نامعتبر"
+          }
+        }
+      }
+    },
+    "Invalid checksum": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "رقم کنترلی نامعتبر"
+          }
+        }
+      }
+    },
+    "Investment": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "سرمایه‌گذاری"
+          }
+        }
+      }
+    },
+    "Its accounting entries are reversed as well.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "اسناد حسابداری آن هم معکوس می‌شوند."
+          }
+        }
+      }
+    },
+    "Its accounting entry is removed as well. You can undo right after.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "سند حسابداری آن هم حذف می‌شود. بلافاصله می‌توانید واگرد کنید."
+          }
+        }
+      }
+    },
+    "Jewelry": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "طلا و جواهر"
+          }
+        }
+      }
+    },
+    "Join Encrypted Vault": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "پیوستن به گاوصندوق رمزنگاری‌شده"
+          }
+        }
+      }
+    },
+    "Join an existing vault (new device)": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "پیوستن به گاوصندوق موجود (دستگاه جدید)"
+          }
+        }
+      }
+    },
+    "Joined the vault. Run a sync to pull this account's data.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "به گاوصندوق پیوستید. برای دریافت داده‌ها یک همگام‌سازی اجرا کنید."
+          }
+        }
+      }
+    },
+    "Key Prefix": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "پیشوند کلید"
+          }
+        }
+      }
+    },
+    "Keyboard Shortcuts": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "کلیدهای میان‌بر"
+          }
+        }
+      }
+    },
+    "Keychain error (%lld).": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "خطای کی‌چین (%lld)."
+          }
+        }
+      }
+    },
+    "Kind": {
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "نوع"
+          }
+        }
+      }
+    },
+    "Last 3 Months": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "۳ ماه گذشته"
+          }
+        }
+      }
+    },
+    "Last Month": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ماه گذشته"
+          }
+        }
+      }
+    },
+    "Last Reconciled": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "آخرین آشتی‌سازی"
+          }
+        }
+      }
+    },
+    "Later": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "بعداً"
+          }
+        }
+      }
+    },
+    "Latin": {
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "لاتین"
+          }
+        }
+      }
+    },
+    "Learning": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "یادگیری"
+          }
+        }
+      }
+    },
+    "Lender": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "وام‌دهنده"
+          }
+        }
+      }
+    },
+    "License": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "مجوز"
+          }
+        }
+      }
+    },
+    "Life Insurance": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "بیمه عمر"
+          }
+        }
+      }
+    },
+    "Loans": {
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "وام‌ها"
+          }
+        }
+      }
+    },
+    "Location": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "مکان"
+          }
+        }
+      }
+    },
+    "Log Activity": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ثبت فعالیت"
+          }
+        }
+      }
+    },
+    "Log what you do each day to build a personal record.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "کارهای روزانه‌تان را ثبت کنید تا یک سابقه شخصی ساخته شود."
+          }
+        }
+      }
+    },
+    "Long-term Deposit": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "بلندمدت"
+          }
+        }
+      }
+    },
+    "Low": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "کم"
+          }
+        }
+      }
+    },
+    "Main Currency": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ارز اصلی"
+          }
+        }
+      }
+    },
+    "Map Columns": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "تنظیم ستون‌ها"
+          }
+        }
+      }
+    },
+    "Mark Reconciled": {
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "علامت‌گذاری مغایرت‌گیری‌شده"
+          }
+        }
+      }
+    },
+    "Mark Unreconciled": {
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "حذف علامت مغایرت‌گیری"
+          }
+        }
+      }
+    },
+    "Merged %1$lld new and %2$lld changed records from %3$lld device(s).": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$lld رکورد جدید و %2$lld رکورد تغییر‌یافته از %3$lld دستگاه ادغام شد."
+          }
+        }
+      }
+    },
+    "Message": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "پیام"
+          }
+        }
+      }
+    },
+    "Money": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "مالی"
+          }
+        }
+      }
+    },
+    "Month": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ماه"
+          }
+        }
+      }
+    },
+    "Monthly": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ماهانه"
+          }
+        }
+      }
+    },
+    "Monthly Limit": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "سقف ماهانه"
+          }
+        }
+      }
+    },
+    "Move money between your accounts; balances update automatically.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "پول را بین حساب‌هایتان جابه‌جا کنید؛ موجودی‌ها خودکار به‌روز می‌شوند."
+          }
+        }
+      }
+    },
+    "My Day": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "روز من"
+          }
+        }
+      }
+    },
+    "My Life": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "زندگی من"
+          }
+        }
+      }
+    },
+    "Name": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "نام"
+          }
+        }
+      }
+    },
+    "Navigate": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ناوبری"
+          }
+        }
+      }
+    },
+    "Net Flow": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "خالص جریان"
+          }
+        }
+      }
+    },
+    "Net Worth": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ارزش خالص دارایی"
+          }
+        }
+      }
+    },
+    "Network error: %@": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "خطای شبکه: %@"
+          }
+        }
+      }
+    },
+    "Never": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "هرگز"
+          }
+        }
+      }
+    },
+    "New Account": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "حساب جدید"
+          }
+        }
+      }
+    },
+    "New Account…": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "حساب جدید…"
+          }
+        }
+      }
+    },
+    "New Alert": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "هشدار جدید"
+          }
+        }
+      }
+    },
+    "New Appointment": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "قرار جدید"
+          }
+        }
+      }
+    },
+    "New Asset": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "دارایی جدید"
+          }
+        }
+      }
+    },
+    "New Business": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "کسب‌وکار جدید"
+          }
+        }
+      }
+    },
+    "New Category": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "دسته‌بندی جدید"
+          }
+        }
+      }
+    },
+    "New Category…": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "دسته‌بندی جدید…"
+          }
+        }
+      }
+    },
+    "New Debt": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "بدهی جدید"
+          }
+        }
+      }
+    },
+    "New Insurance": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "بیمه جدید"
+          }
+        }
+      }
+    },
+    "New Loan": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "وام جدید"
+          }
+        }
+      }
+    },
+    "New Note": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "یادداشت جدید"
+          }
+        }
+      }
+    },
+    "New Recurring": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "تکرارشونده جدید"
+          }
+        }
+      }
+    },
+    "New Task": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "کار جدید"
+          }
+        }
+      }
+    },
+    "New Transaction": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "تراکنش جدید"
+          }
+        }
+      }
+    },
+    "New Transfer": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "انتقال جدید"
+          }
+        }
+      }
+    },
+    "New Value": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ارزش جدید"
+          }
+        }
+      }
+    },
+    "Next": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "بعدی"
+          }
+        }
+      }
+    },
+    "Next month": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ماه بعد"
+          }
+        }
+      }
+    },
+    "No Accounts": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "حسابی وجود ندارد"
+          }
+        }
+      }
+    },
+    "No Assets": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "دارایی‌ای وجود ندارد"
+          }
+        }
+      }
+    },
+    "No Bank (Cash/Wallet)": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "بدون بانک (نقد/کیف پول)"
+          }
+        }
+      }
+    },
+    "No Budgets This Month": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "این ماه بودجه‌ای وجود ندارد"
+          }
+        }
+      }
+    },
+    "No Categories": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "دسته‌بندی‌ای وجود ندارد"
+          }
+        }
+      }
+    },
+    "No Insurances": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "بیمه‌ای وجود ندارد"
+          }
+        }
+      }
+    },
+    "No Loans": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "وامی وجود ندارد"
+          }
+        }
+      }
+    },
+    "No Payables": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "بدهی‌ای وجود ندارد"
+          }
+        }
+      }
+    },
+    "No Receivables": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "طلبی وجود ندارد"
+          }
+        }
+      }
+    },
+    "No Recurring Transactions": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "تراکنش تکرارشونده‌ای وجود ندارد"
+          }
+        }
+      }
+    },
+    "No Transactions": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "تراکنشی وجود ندارد"
+          }
+        }
+      }
+    },
+    "No Transfers": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "انتقالی وجود ندارد"
+          }
+        }
+      }
+    },
+    "No activities logged": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "فعالیتی ثبت نشده"
+          }
+        }
+      }
+    },
+    "No alerts yet": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "هنوز هشداری نیست"
+          }
+        }
+      }
+    },
+    "No appointments": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "قراری نیست"
+          }
+        }
+      }
+    },
+    "No backups yet.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "هنوز پشتیبانی وجود ندارد."
+          }
+        }
+      }
+    },
+    "No data in this period.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "در این دوره داده‌ای وجود ندارد."
+          }
+        }
+      }
+    },
+    "No issues recorded.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "خطایی ثبت نشده است."
+          }
+        }
+      }
+    },
+    "No notes yet": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "هنوز یادداشتی نیست"
+          }
+        }
+      }
+    },
+    "No saved places": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "مکان ذخیره‌شده‌ای نیست"
+          }
+        }
+      }
+    },
+    "No scope available.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "حوزه‌ای در دسترس نیست."
+          }
+        }
+      }
+    },
+    "No tasks here": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "کاری اینجا نیست"
+          }
+        }
+      }
+    },
+    "No tasks, appointments or alerts for today. Enjoy!": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "امروز کار، قرار یا هشداری نیست. خوش بگذرد!"
+          }
+        }
+      }
+    },
+    "No transactions in this period.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "در این دوره تراکنشی نیست."
+          }
+        }
+      }
+    },
+    "None": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "هیچ‌کدام"
+          }
+        }
+      }
+    },
+    "Normal": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "معمولی"
+          }
+        }
+      }
+    },
+    "Note": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "یادداشت"
+          }
+        }
+      }
+    },
+    "Notes": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "یادداشت‌ها"
+          }
+        }
+      }
+    },
+    "Nothing due in the next 30 days.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "در ۳۰ روز آینده پرداختی وجود ندارد."
+          }
+        }
+      }
+    },
+    "Nothing planned for this day.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "برای این روز برنامه‌ای نیست."
+          }
+        }
+      }
+    },
+    "Nothing scheduled ahead.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "برای آینده برنامه‌ای نیست."
+          }
+        }
+      }
+    },
+    "OK": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "خب"
+          }
+        }
+      }
+    },
+    "Obligations & Wealth": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "تعهدات و دارایی"
+          }
+        }
+      }
+    },
+    "Once": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "یک‌بار"
+          }
+        }
+      }
+    },
+    "Only empty businesses can be deleted.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "فقط کسب‌وکارهای خالی قابل حذف هستند."
+          }
+        }
+      }
+    },
+    "Open": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "باز"
+          }
+        }
+      }
+    },
+    "Open in Transactions": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "نمایش در تراکنش‌ها"
+          }
+        }
+      }
+    },
+    "Opened": {
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "تاریخ افتتاح"
+          }
+        }
+      }
+    },
+    "Opened At": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "تاریخ افتتاح"
+          }
+        }
+      }
+    },
+    "Opening Balance": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "موجودی اولیه"
+          }
+        }
+      }
+    },
+    "Options": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "گزینه‌ها"
+          }
+        }
+      }
+    },
+    "Organization": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "سازمان"
+          }
+        }
+      }
+    },
+    "Original repository": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "مخزن اصلی"
+          }
+        }
+      }
+    },
+    "Other": {
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "سایر"
+          }
+        }
+      }
+    },
+    "Over budget": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "عبور از بودجه"
+          }
+        }
+      }
+    },
+    "Overdue": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "معوق"
+          }
+        }
+      }
+    },
+    "Overview": {
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "نمای کلی"
+          }
+        }
+      }
+    },
+    "Owner Contribution": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "آورده شخصی"
+          }
+        }
+      }
+    },
+    "Owner Withdrawal": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "برداشت شخصی"
+          }
+        }
+      }
+    },
+    "Paid": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "پرداخت‌شده"
+          }
+        }
+      }
+    },
+    "Paid From Account": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "پرداخت از حساب"
+          }
+        }
+      }
+    },
+    "Parent": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "والد"
+          }
+        }
+      }
+    },
+    "Password": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "گذرواژه"
+          }
+        }
+      }
+    },
+    "Past": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "گذشته"
+          }
+        }
+      }
+    },
+    "Pay": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "پرداخت"
+          }
+        }
+      }
+    },
+    "Payables": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "بدهی‌ها"
+          }
+        }
+      }
+    },
+    "Period": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "بازه"
+          }
+        }
+      }
+    },
+    "Persian": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "شمسی"
+          }
+        }
+      }
+    },
+    "Personal": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "شخصی"
+          }
+        }
+      }
+    },
+    "Pick a bank statement CSV; the app maps its columns, flags duplicates and posts everything through the ledger.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "فایل CSV بانک را انتخاب کنید؛ ستون‌ها تنظیم، تکراری‌ها علامت‌گذاری و همه چیز از طریق دفتر ثبت می‌شود."
+          }
+        }
+      }
+    },
+    "Pin": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "سنجاق کردن"
+          }
+        }
+      }
+    },
+    "Pinned": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "سنجاق‌شده"
+          }
+        }
+      }
+    },
+    "Place name": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "نام مکان"
+          }
+        }
+      }
+    },
+    "Places": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "مکان‌ها"
+          }
+        }
+      }
+    },
+    "Planning": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "برنامه‌ریزی"
+          }
+        }
+      }
+    },
+    "Policy Number": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "شماره بیمه‌نامه"
+          }
+        }
+      }
+    },
+    "Post Automatically": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ثبت خودکار"
+          }
+        }
+      }
+    },
+    "Post Now": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ثبت فوری"
+          }
+        }
+      }
+    },
+    "Premium": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "حق بیمه"
+          }
+        }
+      }
+    },
+    "Press ⌘N to record your first transaction.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "برای ثبت اولین تراکنش ⌘N را بزنید."
+          }
+        }
+      }
+    },
+    "Preview": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "پیش‌نمایش"
+          }
+        }
+      }
+    },
+    "Previous month": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ماه قبل"
+          }
+        }
+      }
+    },
+    "Principal": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "اصل وام"
+          }
+        }
+      }
+    },
+    "Priority": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "اولویت"
+          }
+        }
+      }
+    },
+    "ProMe": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ProMe"
+          }
+        }
+      }
+    },
+    "ProMe is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version. Translations, bug reports and patches are welcome in the original repository.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ProMe نرم‌افزار آزاد است: می‌توانید آن را تحت شرایط GNU General Public License منتشرشده توسط بنیاد نرم‌افزار آزاد — نسخه ۳ یا (به اختیار) هر نسخه بعدی — بازتوزیع و تغییر دهید. ترجمه‌ها، گزارش خطاها و وصله‌ها در مخزن اصلی خوش‌آمد هستند."
+          }
+        }
+      }
+    },
+    "Profit": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "سود"
+          }
+        }
+      }
+    },
+    "Project": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "پروژه"
+          }
+        }
+      }
+    },
+    "Property": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ملک"
+          }
+        }
+      }
+    },
+    "Purchase Date": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "تاریخ خرید"
+          }
+        }
+      }
+    },
+    "Purchase Price": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "قیمت خرید"
+          }
+        }
+      }
+    },
+    "Quarterly": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "فصلی"
+          }
+        }
+      }
+    },
+    "Receivables": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "طلب‌ها"
+          }
+        }
+      }
+    },
+    "Recent Transactions": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "تراکنش‌های اخیر"
+          }
+        }
+      }
+    },
+    "Reconcile": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "آشتی دادن"
+          }
+        }
+      }
+    },
+    "Reconciled": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "آشتی‌داده‌شده"
+          }
+        }
+      }
+    },
+    "Reconcile…": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "آشتی دادن…"
+          }
+        }
+      }
+    },
+    "Record Payment": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ثبت پرداخت"
+          }
+        }
+      }
+    },
+    "Record Payment…": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ثبت پرداخت…"
+          }
+        }
+      }
+    },
+    "Record Valuation…": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ثبت ارزش‌گذاری…"
+          }
+        }
+      }
+    },
+    "Record a loan and its installment schedule is generated automatically.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "وام را ثبت کنید؛ جدول اقساط خودکار ساخته می‌شود."
+          }
+        }
+      }
+    },
+    "Recurring": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "تکرارشونده"
+          }
+        }
+      }
+    },
+    "Reference": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "شماره پیگیری"
+          }
+        }
+      }
+    },
+    "Refund": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "بازگشت وجه"
+          }
+        }
+      }
+    },
+    "Region": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "منطقه"
+          }
+        }
+      }
+    },
+    "Register policies and let premiums recur automatically.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "بیمه‌نامه‌ها را ثبت کنید تا حق بیمه‌ها خودکار تکرار شوند."
+          }
+        }
+      }
+    },
+    "Relaunch Now": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "اجرای دوباره"
+          }
+        }
+      }
+    },
+    "Remaining": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "باقی‌مانده"
+          }
+        }
+      }
+    },
+    "Reminder": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "یادآور"
+          }
+        }
+      }
+    },
+    "Reminder %lld min before": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "یادآور %lld دقیقه قبل"
+          }
+        }
+      }
+    },
+    "Remove Favorite": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "حذف علاقه‌مندی"
+          }
+        }
+      }
+    },
+    "Repeat": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "تکرار"
+          }
+        }
+      }
+    },
+    "Report": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "گزارش"
+          }
+        }
+      }
+    },
+    "Reports": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "گزارش‌ها"
+          }
+        }
+      }
+    },
+    "Restart Required": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "اجرای دوباره لازم است"
+          }
+        }
+      }
+    },
+    "Restore": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "بازیابی"
+          }
+        }
+      }
+    },
+    "Restore this backup?": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "این پشتیبان بازیابی شود؟"
+          }
+        }
+      }
+    },
+    "Restored. Views refresh as you navigate.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "بازیابی شد. نماها هنگام جابه‌جایی تازه می‌شوند."
+          }
+        }
+      }
+    },
+    "Resume": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ادامه"
+          }
+        }
+      }
+    },
+    "Rows Ready": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "سطرهای آماده"
+          }
+        }
+      }
+    },
+    "S3 Storage": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "فضای S3"
+          }
+        }
+      }
+    },
+    "Sale Proceeds": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "حاصل فروش"
+          }
+        }
+      }
+    },
+    "Save": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ذخیره"
+          }
+        }
+      }
+    },
+    "Save Place": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ذخیره مکان"
+          }
+        }
+      }
+    },
+    "Save and Next": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ذخیره و بعدی"
+          }
+        }
+      }
+    },
+    "Saved": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ذخیره شد"
+          }
+        }
+      }
+    },
+    "Saving changes failed. %@": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ذخیره تغییرات ناموفق بود. %@"
+          }
+        }
+      }
+    },
+    "Savings": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "پس‌انداز"
+          }
+        }
+      }
+    },
+    "Schedule meetings and get reminders right on time.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "قرارها را برنامه‌ریزی کنید و سر وقت یادآور بگیرید."
+          }
+        }
+      }
+    },
+    "Scheduled": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "برنامه‌ریزی‌شده"
+          }
+        }
+      }
+    },
+    "Scope": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "حوزه"
+          }
+        }
+      }
+    },
+    "Search Transactions": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "جستجوی تراکنش‌ها"
+          }
+        }
+      }
+    },
+    "Search address…": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "جستجوی نشانی…"
+          }
+        }
+      }
+    },
+    "Search description, category, account…": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "جستجوی توضیح، دسته، حساب…"
+          }
+        }
+      }
+    },
+    "Search notes": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "جستجوی یادداشت‌ها"
+          }
+        }
+      }
+    },
+    "Search the map (OpenStreetMap) and save home, work and other places.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "روی نقشه (OpenStreetMap) جستجو کنید و خانه، محل کار و مکان‌های دیگر را ذخیره کنید."
+          }
+        }
+      }
+    },
+    "Secret Key": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "کلید مخفی"
+          }
+        }
+      }
+    },
+    "Section": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "بخش"
+          }
+        }
+      }
+    },
+    "Sell": {
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "فروش"
+          }
+        }
+      }
+    },
+    "Sell…": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "فروش…"
+          }
+        }
+      }
+    },
+    "Server returned status %lld.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "سرور وضعیت %lld را برگرداند."
+          }
+        }
+      }
+    },
+    "Set a monthly limit per category to track spending.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "برای پیگیری خرج، سقف ماهانه هر دسته را تعیین کنید."
+          }
+        }
+      }
+    },
+    "Settings": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "تنظیمات"
+          }
+        }
+      }
+    },
+    "Settled": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "تسویه‌شده"
+          }
+        }
+      }
+    },
+    "Setup": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "راه‌اندازی"
+          }
+        }
+      }
+    },
+    "Severity": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "شدت"
+          }
+        }
+      }
+    },
+    "Short-term Deposit": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "کوتاه‌مدت"
+          }
+        }
+      }
+    },
+    "Single Amount Column": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "یک ستون مبلغ"
+          }
+        }
+      }
+    },
+    "Skip Duplicates": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "رد کردن تکراری‌ها"
+          }
+        }
+      }
+    },
+    "Skipped Duplicates": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "تکراری ردشده"
+          }
+        }
+      }
+    },
+    "Snapshot signature is invalid. The data may be tampered with.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "امضای اسنپ‌شات نامعتبر است. ممکن است داده دستکاری شده باشد."
+          }
+        }
+      }
+    },
+    "Snapshot uploaded.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "اسنپ‌شات بارگذاری شد."
+          }
+        }
+      }
+    },
+    "Snapshots are encrypted (AES-GCM) with a key that is password-wrapped in your bucket, and every device signs its uploads with its own Ed25519 key. Without the password nobody — not even the storage provider — can read your data.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "اسنپ‌شات‌ها با AES-GCM رمزنگاری می‌شوند و کلیدشان در سطل شما با گذرواژه پوشانده می‌شود؛ هر دستگاه هم بارگذاری‌هایش را با کلید Ed25519 خودش امضا می‌کند. بدون گذرواژه هیچ‌کس — حتی سرویس‌دهنده فضای ذخیره — نمی‌تواند داده‌های شما را بخواند."
+          }
+        }
+      }
+    },
+    "Social Security": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "تأمین اجتماعی"
+          }
+        }
+      }
+    },
+    "Sold": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "فروخته‌شده"
+          }
+        }
+      }
+    },
+    "Something went wrong": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "مشکلی پیش آمد"
+          }
+        }
+      }
+    },
+    "Start Date": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "تاریخ شروع"
+          }
+        }
+      }
+    },
+    "Started": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "تاریخ شروع"
+          }
+        }
+      }
+    },
+    "Starts": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "شروع"
+          }
+        }
+      }
+    },
+    "Status": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "وضعیت"
+          }
+        }
+      }
+    },
+    "Stop": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "متوقف کردن"
+          }
+        }
+      }
+    },
+    "Supplementary": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "تکمیلی"
+          }
+        }
+      }
+    },
+    "Sync": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "همگام‌سازی"
+          }
+        }
+      }
+    },
+    "Sync Now": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "همگام‌سازی الان"
+          }
+        }
+      }
+    },
+    "Sync disconnected. Remote data is untouched.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "همگام‌سازی قطع شد. داده‌های دور دست‌نخورده ماندند."
+          }
+        }
+      }
+    },
+    "Sync is not configured.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "همگام‌سازی تنظیم نشده است."
+          }
+        }
+      }
+    },
+    "System": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "سیستم"
+          }
+        }
+      }
+    },
+    "Target & Review": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "مقصد و بازبینی"
+          }
+        }
+      }
+    },
+    "Task": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "کار"
+          }
+        }
+      }
+    },
+    "Task Reminder": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "یادآور کار"
+          }
+        }
+      }
+    },
+    "Term": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "مدت"
+          }
+        }
+      }
+    },
+    "The account has no scope.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "حساب هیچ حوزه‌ای ندارد."
+          }
+        }
+      }
+    },
+    "The accounting account %@ could not be found.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "حسابداری %@ پیدا نشد."
+          }
+        }
+      }
+    },
+    "The accounting entry is not balanced. %@": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "قلم حسابداری تراز نیست. %@"
+          }
+        }
+      }
+    },
+    "The amount is not valid. %@": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "مبلغ معتبر نیست. %@"
+          }
+        }
+      }
+    },
+    "The amount is too large.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "مبلغ بیش از حد بزرگ است."
+          }
+        }
+      }
+    },
+    "The current data will be replaced with the backup contents.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "داده‌های فعلی با محتوای پشتیبان جایگزین می‌شوند."
+          }
+        }
+      }
+    },
+    "The database could not be opened. %@": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "پایگاه داده باز نشد. %@"
+          }
+        }
+      }
+    },
+    "The database model could not be loaded.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "مدل پایگاه داده بارگذاری نشد."
+          }
+        }
+      }
+    },
+    "The exchange rate must be greater than zero.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "نرخ تبدیل باید بزرگ‌تر از صفر باشد."
+          }
+        }
+      }
+    },
+    "The field “%@” is required.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "فیلد «%@» الزامی است."
+          }
+        }
+      }
+    },
+    "The language changes after relaunch.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "زبان پس از اجرای دوبارهٔ برنامه اعمال می‌شود."
+          }
+        }
+      }
+    },
+    "The password is not stored anywhere. It is required when adding a new device.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "گذرواژه هیچ‌جا ذخیره نمی‌شود. هنگام افزودن دستگاه جدید لازم است."
+          }
+        }
+      }
+    },
+    "The premium recurrence is stopped as well.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "تکرارشوندهٔ حق بیمه هم متوقف می‌شود."
+          }
+        }
+      }
+    },
+    "The snapshot file is malformed.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "فایل اسنپ‌شات ناقص یا خراب است."
+          }
+        }
+      }
+    },
+    "This Month": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "این ماه"
+          }
+        }
+      }
+    },
+    "This Month In": {
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ورودی این ماه"
+          }
+        }
+      }
+    },
+    "This Month Out": {
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "خروجی این ماه"
+          }
+        }
+      }
+    },
+    "This Year": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "امسال"
+          }
+        }
+      }
+    },
+    "This help": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "همین راهنما"
+          }
+        }
+      }
+    },
+    "This operation is not allowed. %@": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "این عملیات مجاز نیست. %@"
+          }
+        }
+      }
+    },
+    "Title": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "عنوان"
+          }
+        }
+      }
+    },
+    "To": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "به"
+          }
+        }
+      }
+    },
+    "Today": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "امروز"
+          }
+        }
+      }
+    },
+    "Top Level": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "سطح اول"
+          }
+        }
+      }
+    },
+    "Total Assets": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "کل دارایی‌ها"
+          }
+        }
+      }
+    },
+    "Track what people owe you — or what you owe them — with full ledger entries.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "آنچه به شما بدهکارند — یا شما به آن‌ها بدهکارید — با سند کامل حسابداری پیگیری کنید."
+          }
+        }
+      }
+    },
+    "Track what you own — its value flows into your net worth.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "آنچه دارید را ثبت کنید؛ ارزشش در ارزش خالص دارایی دیده می‌شود."
+          }
+        }
+      }
+    },
+    "Trade Name": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "نام تجاری"
+          }
+        }
+      }
+    },
+    "Transactions": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "تراکنش‌ها"
+          }
+        }
+      }
+    },
+    "Transfer": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "انتقال"
+          }
+        }
+      }
+    },
+    "Transfers": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "انتقال‌ها"
+          }
+        }
+      }
+    },
+    "Type": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "نوع"
+          }
+        }
+      }
+    },
+    "Unarchive": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "خروج از بایگانی"
+          }
+        }
+      }
+    },
+    "Undo": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "واگرد"
+          }
+        }
+      }
+    },
+    "Unknown entity in snapshot: %@": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "موجودیت ناشناخته در اسنپ‌شات: %@"
+          }
+        }
+      }
+    },
+    "Unpin": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "برداشتن سنجاق"
+          }
+        }
+      }
+    },
+    "Unreconciled Transactions": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "تراکنش‌های آشتی‌نشده"
+          }
+        }
+      }
+    },
+    "Upcoming": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "پیش‌رو"
+          }
+        }
+      }
+    },
+    "Upcoming Payment": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "پرداخت پیش‌رو"
+          }
+        }
+      }
+    },
+    "Upcoming Payments": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "پرداخت‌های پیش‌رو"
+          }
+        }
+      }
+    },
+    "Urgent": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "فوری"
+          }
+        }
+      }
+    },
+    "Urgent Alert": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "هشدار فوری"
+          }
+        }
+      }
+    },
+    "Valid": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "معتبر"
+          }
+        }
+      }
+    },
+    "Valid Sheba": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "شبای معتبر"
+          }
+        }
+      }
+    },
+    "Valued": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ارزش‌گذاری"
+          }
+        }
+      }
+    },
+    "Vault Password": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "گذرواژه گاوصندوق"
+          }
+        }
+      }
+    },
+    "Vault created. This device can now push and pull encrypted snapshots.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "گاوصندوق ساخته شد. این دستگاه اکنون می‌تواند اسنپ‌شات‌های رمزنگاری‌شده را بفرستد و بگیرد."
+          }
+        }
+      }
+    },
+    "Vehicle": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "خودرو"
+          }
+        }
+      }
+    },
+    "Version %@": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "نسخه %@"
+          }
+        }
+      }
+    },
+    "Wallet": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "کیف پول"
+          }
+        }
+      }
+    },
+    "Want ProMe in your language? See the translation guide in the project repository — new languages appear here automatically.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "می‌خواهید ProMe به زبان شما باشد؟ راهنمای ترجمه را در مخزن پروژه ببینید — زبان‌های جدید به‌طور خودکار همین‌جا ظاهر می‌شوند."
+          }
+        }
+      }
+    },
+    "Wealth": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ثروت"
+          }
+        }
+      }
+    },
+    "Weekly": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "هفتگی"
+          }
+        }
+      }
+    },
+    "Welcome to ProMe": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "به پروبیل خوش آمدید"
+          }
+        }
+      }
+    },
+    "What did you do?": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "چه کاری انجام دادید؟"
+          }
+        }
+      }
+    },
+    "When": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "چه زمانی"
+          }
+        }
+      }
+    },
+    "Will be recorded as Owner Contribution.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "به‌عنوان آورده شخصی ثبت می‌شود."
+          }
+        }
+      }
+    },
+    "Will be recorded as Owner Withdrawal.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "به‌عنوان برداشت شخصی ثبت می‌شود."
+          }
+        }
+      }
+    },
+    "Work": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "کار"
+          }
+        }
+      }
+    },
+    "Write down whatever you want to keep — private and always with you.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "هر چه می‌خواهید نگه دارید بنویسید — خصوصی و همیشه همراه شما."
+          }
+        }
+      }
+    },
+    "Write here…": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "اینجا بنویسید…"
+          }
+        }
+      }
+    },
+    "Wrong password.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "گذرواژه اشتباه است."
+          }
+        }
+      }
+    },
+    "Yearly": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "سالانه"
+          }
+        }
+      }
+    },
+    "Your personal command center": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "مرکز فرماندهی شخصی شما"
+          }
+        }
+      }
+    },
+    "Your personal suite: money and life, together.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "مجموعه شخصی شما: پول و زندگی، یکجا."
+          }
+        }
+      }
+    },
+    "bought at %@ of %@": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "خریداری‌شده در %@ به مبلغ %@"
+          }
+        }
+      }
+    },
+    "of %@": {
+      "extractionState": "manual",
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "از %@"
+          }
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}

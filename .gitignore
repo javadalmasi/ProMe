@@ -1,0 +1,21 @@
+# macOS
+.DS_Store
+*.swp
+
+# Xcode
+DerivedData/
+build/
+xcuserdata/
+*.xcuserstate
+*.xcscmblueprint
+
+# Swift Package Manager
+.build/
+Packages/*/.build/
+.swiftpm/xcode/xcuserdata/
+
+# Local iOS runtime exports
+dist/
+
+# ZCode workspace metadata
+.zcodeignore

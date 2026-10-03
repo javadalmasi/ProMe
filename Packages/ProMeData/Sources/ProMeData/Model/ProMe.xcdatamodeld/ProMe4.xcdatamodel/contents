@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="23226" systemVersion="27A266a" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="NO" userDefinedModelVersionIdentifier="v4">
+    <entity name="FinancialScope" representedClassName="FinancialScopeMO" syncable="YES">
+        <attribute name="id" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="name" attributeType="String"/>
+        <attribute name="kindRaw" attributeType="String"/>
+        <attribute name="isActive" attributeType="Boolean" defaultValueString="YES" usesScalarValueType="YES"/>
+        <attribute name="createdAt" attributeType="Date" usesScalarValueType="NO"/>
+        <relationship name="business" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="Business" inverseName="scope" inverseEntity="Business"/>
+        <relationship name="accounts" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="MoneyAccount" inverseName="scope" inverseEntity="MoneyAccount"/>
+        <relationship name="transactions" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Transaction" inverseName="scope" inverseEntity="Transaction"/>
+        <relationship name="categories" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Category" inverseName="scope" inverseEntity="Category"/>
+        <relationship name="budgetEntries" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="BudgetEntry" inverseName="scope" inverseEntity="BudgetEntry"/>
+        <relationship name="recurringTransactions" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="RecurringTransaction" inverseName="scope" inverseEntity="RecurringTransaction"/>
+        <relationship name="debts" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Debt" inverseName="scope" inverseEntity="Debt"/>
+        <relationship name="loans" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Loan" inverseName="scope" inverseEntity="Loan"/>
+        <relationship name="insurances" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Insurance" inverseName="scope" inverseEntity="Insurance"/>
+        <relationship name="assets" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Asset" inverseName="scope" inverseEntity="Asset"/>
+    </entity>
+    <entity name="Business" representedClassName="BusinessMO" syncable="YES">
+        <attribute name="id" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="legalName" attributeType="String"/>
+        <attribute name="tradeName" optional="YES" attributeType="String"/>
+        <attribute name="startDate" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="baseCurrencyCode" attributeType="String"/>
+        <attribute name="notes" optional="YES" attributeType="String"/>
+        <relationship name="scope" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="FinancialScope" inverseName="business" inverseEntity="FinancialScope"/>
+    </entity>
+    <entity name="UserProfile" representedClassName="UserProfileMO" syncable="YES">
+        <attribute name="id" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="displayName" attributeType="String"/>
+        <attribute name="baseCurrencyCode" attributeType="String"/>
+        <attribute name="calendarPreferenceRaw" attributeType="String"/>
+        <attribute name="digitStyleRaw" attributeType="String"/>
+        <attribute name="themePreferenceRaw" attributeType="String"/>
+    </entity>
+    <entity name="MoneyAccount" representedClassName="MoneyAccountMO" syncable="YES">
+        <attribute name="id" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="name" attributeType="String"/>
+        <attribute name="bankName" optional="YES" attributeType="String"/>
+        <attribute name="accountNumber" optional="YES" attributeType="String"/>
+        <attribute name="cardNumber" optional="YES" attributeType="String"/>
+        <attribute name="iban" optional="YES" attributeType="String"/>
+        <attribute name="typeRaw" attributeType="String"/>
+        <attribute name="currencyCode" attributeType="String"/>
+        <attribute name="openingBalanceMinor" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="openedAt" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="notes" optional="YES" attributeType="String"/>
+        <attribute name="statusRaw" attributeType="String"/>
+        <attribute name="position" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="createdAt" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="updatedAt" attributeType="Date" usesScalarValueType="NO"/>
+        <relationship name="scope" maxCount="1" deletionRule="Nullify" destinationEntity="FinancialScope" inverseName="accounts" inverseEntity="FinancialScope"/>
+        <relationship name="ledgerAccount" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="LedgerAccount" inverseName="moneyAccount" inverseEntity="LedgerAccount"/>
+        <relationship name="transactions" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Transaction" inverseName="account" inverseEntity="Transaction"/>
+        <relationship name="outgoingTransfers" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Transaction" inverseName="fromAccount" inverseEntity="Transaction"/>
+        <relationship name="incomingTransfers" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Transaction" inverseName="toAccount" inverseEntity="Transaction"/>
+        <relationship name="recurringTransactions" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="RecurringTransaction" inverseName="account" inverseEntity="RecurringTransaction"/>
+        <relationship name="loans" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Loan" inverseName="account" inverseEntity="Loan"/>
+        <relationship name="insurances" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Insurance" inverseName="account" inverseEntity="Insurance"/>
+        <relationship name="reconciliations" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Reconciliation" inverseName="account" inverseEntity="Reconciliation"/>
+    </entity>
+    <entity name="LedgerAccount" representedClassName="LedgerAccountMO" syncable="YES">
+        <attribute name="id" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="code" attributeType="String"/>
+        <attribute name="name" attributeType="String"/>
+        <attribute name="typeRaw" attributeType="String"/>
+        <attribute name="normalSideRaw" attributeType="String"/>
+        <attribute name="createdAt" attributeType="Date" usesScalarValueType="NO"/>
+        <relationship name="moneyAccount" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="MoneyAccount" inverseName="ledgerAccount" inverseEntity="MoneyAccount"/>
+        <relationship name="category" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Category" inverseName="ledgerAccount" inverseEntity="Category"/>
+        <relationship name="lines" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="LedgerLine" inverseName="ledgerAccount" inverseEntity="LedgerLine"/>
+    </entity>
+    <entity name="Journal" representedClassName="JournalMO" syncable="YES">
+        <attribute name="id" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="kindRaw" attributeType="String"/>
+        <attribute name="date" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="memo" optional="YES" attributeType="String"/>
+        <attribute name="createdAt" attributeType="Date" usesScalarValueType="NO"/>
+        <relationship name="lines" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="LedgerLine" inverseName="journal" inverseEntity="LedgerLine"/>
+        <relationship name="transaction" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Transaction" inverseName="journal" inverseEntity="Transaction"/>
+        <relationship name="debt" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Debt" inverseName="journal" inverseEntity="Debt"/>
+        <relationship name="debtPayment" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="DebtPayment" inverseName="journal" inverseEntity="DebtPayment"/>
+        <relationship name="loan" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Loan" inverseName="journal" inverseEntity="Loan"/>
+        <relationship name="loanInstallment" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="LoanInstallment" inverseName="journal" inverseEntity="LoanInstallment"/>
+        <relationship name="asset" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Asset" inverseName="journal" inverseEntity="Asset"/>
+        <relationship name="assetSale" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Asset" inverseName="saleJournal" inverseEntity="Asset"/>
+    </entity>
+    <entity name="LedgerLine" representedClassName="LedgerLineMO" syncable="YES">
+        <attribute name="id" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="directionRaw" attributeType="String"/>
+        <attribute name="amountMinor" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="currencyCode" attributeType="String"/>
+        <relationship name="journal" maxCount="1" deletionRule="Nullify" destinationEntity="Journal" inverseName="lines" inverseEntity="Journal"/>
+        <relationship name="ledgerAccount" maxCount="1" deletionRule="Nullify" destinationEntity="LedgerAccount" inverseName="lines" inverseEntity="LedgerAccount"/>
+        <fetchIndexes>
+            <fetchIndex name="byLedgerAccount">
+                <fetchIndexSorted column="ledgerAccount" order="ascending"/>
+            </fetchIndex>
+        </fetchIndexes>
+    </entity>
+    <entity name="Category" representedClassName="CategoryMO" syncable="YES">
+        <attribute name="id" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="name" attributeType="String"/>
+        <attribute name="kindRaw" attributeType="String"/>
+        <attribute name="symbol" optional="YES" attributeType="String"/>
+        <attribute name="colorHex" optional="YES" attributeType="String"/>
+        <attribute name="isSystem" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
+        <attribute name="createdAt" attributeType="Date" usesScalarValueType="NO"/>
+        <relationship name="scope" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="FinancialScope" inverseName="categories" inverseEntity="FinancialScope"/>
+        <relationship name="parent" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Category" inverseName="children" inverseEntity="Category"/>
+        <relationship name="children" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Category" inverseName="parent" inverseEntity="Category"/>
+        <relationship name="ledgerAccount" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="LedgerAccount" inverseName="category" inverseEntity="LedgerAccount"/>
+        <relationship name="transactions" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Transaction" inverseName="category" inverseEntity="Transaction"/>
+        <relationship name="budgetEntries" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="BudgetEntry" inverseName="category" inverseEntity="BudgetEntry"/>
+        <relationship name="recurringTransactions" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="RecurringTransaction" inverseName="category" inverseEntity="RecurringTransaction"/>
+    </entity>
+    <entity name="Tag" representedClassName="TagMO" syncable="YES">
+        <attribute name="id" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="name" attributeType="String"/>
+        <attribute name="colorHex" optional="YES" attributeType="String"/>
+        <relationship name="transactions" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Transaction" inverseName="tags" inverseEntity="Transaction"/>
+    </entity>
+    <entity name="Counterparty" representedClassName="CounterpartyMO" syncable="YES">
+        <attribute name="id" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="displayName" attributeType="String"/>
+        <attribute name="kindRaw" attributeType="String"/>
+        <attribute name="notes" optional="YES" attributeType="String"/>
+        <relationship name="transactions" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Transaction" inverseName="counterparty" inverseEntity="Transaction"/>
+        <relationship name="debts" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Debt" inverseName="counterparty" inverseEntity="Debt"/>
+    </entity>
+    <entity name="Transaction" representedClassName="TransactionMO" syncable="YES">
+        <attribute name="id" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="kindRaw" attributeType="String"/>
+        <attribute name="postedAt" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="dateKey" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="amountMinor" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="currencyCode" attributeType="String"/>
+        <attribute name="memo" optional="YES" attributeType="String"/>
+        <attribute name="notes" optional="YES" attributeType="String"/>
+        <attribute name="referenceNo" optional="YES" attributeType="String"/>
+        <attribute name="isReconciled" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
+        <attribute name="createdAt" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="updatedAt" attributeType="Date" usesScalarValueType="NO"/>
+        <relationship name="scope" maxCount="1" deletionRule="Nullify" destinationEntity="FinancialScope" inverseName="transactions" inverseEntity="FinancialScope"/>
+        <relationship name="account" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="MoneyAccount" inverseName="transactions" inverseEntity="MoneyAccount"/>
+        <relationship name="fromAccount" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="MoneyAccount" inverseName="outgoingTransfers" inverseEntity="MoneyAccount"/>
+        <relationship name="toAccount" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="MoneyAccount" inverseName="incomingTransfers" inverseEntity="MoneyAccount"/>
+        <relationship name="category" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Category" inverseName="transactions" inverseEntity="Category"/>
+        <relationship name="counterparty" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Counterparty" inverseName="transactions" inverseEntity="Counterparty"/>
+        <relationship name="tags" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Tag" inverseName="transactions" inverseEntity="Tag"/>
+        <relationship name="attachments" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Attachment" inverseName="transaction" inverseEntity="Attachment"/>
+        <relationship name="journal" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Journal" inverseName="transaction" inverseEntity="Journal"/>
+        <fetchIndexes>
+            <fetchIndex name="byPostedAt">
+                <fetchIndexSorted column="postedAt" order="ascending"/>
+            </fetchIndex>
+            <fetchIndex name="byDateKey">
+                <fetchIndexSorted column="dateKey" order="ascending"/>
+            </fetchIndex>
+        </fetchIndexes>
+    </entity>
+    <entity name="Attachment" representedClassName="AttachmentMO" syncable="YES">
+        <attribute name="id" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="fileName" attributeType="String"/>
+        <attribute name="relativePath" attributeType="String"/>
+        <attribute name="kindRaw" attributeType="String"/>
+        <attribute name="sizeBytes" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="checksum" optional="YES" attributeType="String"/>
+        <attribute name="createdAt" attributeType="Date" usesScalarValueType="NO"/>
+        <relationship name="transaction" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Transaction" inverseName="attachments" inverseEntity="Transaction"/>
+    </entity>
+    <entity name="RecurringTransaction" representedClassName="RecurringTransactionMO" syncable="YES">
+        <attribute name="id" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="kindRaw" attributeType="String"/>
+        <attribute name="amountMinor" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="currencyCode" attributeType="String"/>
+        <attribute name="frequencyRaw" attributeType="String"/>
+        <attribute name="interval" attributeType="Integer 32" defaultValueString="1" usesScalarValueType="YES"/>
+        <attribute name="startDate" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="endDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="nextDueAt" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="lastPostedAt" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="autoPost" attributeType="Boolean" defaultValueString="YES" usesScalarValueType="YES"/>
+        <attribute name="memo" optional="YES" attributeType="String"/>
+        <attribute name="isActive" attributeType="Boolean" defaultValueString="YES" usesScalarValueType="YES"/>
+        <attribute name="createdAt" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="updatedAt" attributeType="Date" usesScalarValueType="NO"/>
+        <relationship name="scope" maxCount="1" deletionRule="Nullify" destinationEntity="FinancialScope" inverseName="recurringTransactions" inverseEntity="FinancialScope"/>
+        <relationship name="account" maxCount="1" deletionRule="Nullify" destinationEntity="MoneyAccount" inverseName="recurringTransactions" inverseEntity="MoneyAccount"/>
+        <relationship name="category" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Category" inverseName="recurringTransactions" inverseEntity="Category"/>
+        <relationship name="insurance" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Insurance" inverseName="recurring" inverseEntity="Insurance"/>
+    </entity>
+    <entity name="BudgetEntry" representedClassName="BudgetEntryMO" syncable="YES">
+        <attribute name="id" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="monthKey" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="amountMinor" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="currencyCode" attributeType="String"/>
+        <attribute name="createdAt" attributeType="Date" usesScalarValueType="NO"/>
+        <relationship name="scope" maxCount="1" deletionRule="Nullify" destinationEntity="FinancialScope" inverseName="budgetEntries" inverseEntity="FinancialScope"/>
+        <relationship name="category" maxCount="1" deletionRule="Nullify" destinationEntity="Category" inverseName="budgetEntries" inverseEntity="Category"/>
+    </entity>
+    <entity name="Debt" representedClassName="DebtMO" syncable="YES">
+        <attribute name="id" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="directionRaw" attributeType="String"/>
+        <attribute name="principalMinor" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="currencyCode" attributeType="String"/>
+        <attribute name="date" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="dueDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="statusRaw" attributeType="String"/>
+        <attribute name="notes" optional="YES" attributeType="String"/>
+        <attribute name="createdAt" attributeType="Date" usesScalarValueType="NO"/>
+        <relationship name="scope" maxCount="1" deletionRule="Nullify" destinationEntity="FinancialScope" inverseName="debts" inverseEntity="FinancialScope"/>
+        <relationship name="counterparty" maxCount="1" deletionRule="Nullify" destinationEntity="Counterparty" inverseName="debts" inverseEntity="Counterparty"/>
+        <relationship name="payments" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="DebtPayment" inverseName="debt" inverseEntity="DebtPayment"/>
+        <relationship name="journal" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Journal" inverseName="debt" inverseEntity="Journal"/>
+    </entity>
+    <entity name="DebtPayment" representedClassName="DebtPaymentMO" syncable="YES">
+        <attribute name="id" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="amountMinor" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="currencyCode" attributeType="String"/>
+        <attribute name="date" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="notes" optional="YES" attributeType="String"/>
+        <attribute name="createdAt" attributeType="Date" usesScalarValueType="NO"/>
+        <relationship name="debt" maxCount="1" deletionRule="Nullify" destinationEntity="Debt" inverseName="payments" inverseEntity="Debt"/>
+        <relationship name="journal" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Journal" inverseName="debtPayment" inverseEntity="Journal"/>
+    </entity>
+    <entity name="Loan" representedClassName="LoanMO" syncable="YES">
+        <attribute name="id" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="lenderName" attributeType="String"/>
+        <attribute name="principalMinor" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="annualRate" optional="YES" attributeType="Decimal" defaultValueString="0.0"/>
+        <attribute name="termMonths" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="startDate" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="dueDay" attributeType="Integer 32" defaultValueString="1" usesScalarValueType="YES"/>
+        <attribute name="currencyCode" attributeType="String"/>
+        <attribute name="statusRaw" attributeType="String"/>
+        <attribute name="memo" optional="YES" attributeType="String"/>
+        <attribute name="createdAt" attributeType="Date" usesScalarValueType="NO"/>
+        <relationship name="scope" maxCount="1" deletionRule="Nullify" destinationEntity="FinancialScope" inverseName="loans" inverseEntity="FinancialScope"/>
+        <relationship name="account" maxCount="1" deletionRule="Nullify" destinationEntity="MoneyAccount" inverseName="loans" inverseEntity="MoneyAccount"/>
+        <relationship name="installments" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="LoanInstallment" inverseName="loan" inverseEntity="LoanInstallment"/>
+        <relationship name="journal" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Journal" inverseName="loan" inverseEntity="Journal"/>
+    </entity>
+    <entity name="LoanInstallment" representedClassName="LoanInstallmentMO" syncable="YES">
+        <attribute name="id" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="index" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="dueDate" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="principalMinor" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="interestMinor" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="statusRaw" attributeType="String"/>
+        <attribute name="paidAt" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <relationship name="loan" maxCount="1" deletionRule="Nullify" destinationEntity="Loan" inverseName="installments" inverseEntity="Loan"/>
+        <relationship name="journal" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Journal" inverseName="loanInstallment" inverseEntity="Journal"/>
+    </entity>
+    <entity name="Insurance" representedClassName="InsuranceMO" syncable="YES">
+        <attribute name="id" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="typeRaw" attributeType="String"/>
+        <attribute name="organization" attributeType="String"/>
+        <attribute name="policyNumber" optional="YES" attributeType="String"/>
+        <attribute name="contractNumber" optional="YES" attributeType="String"/>
+        <attribute name="startDate" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="endDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="premiumMinor" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="currencyCode" attributeType="String"/>
+        <attribute name="periodRaw" attributeType="String"/>
+        <attribute name="statusRaw" attributeType="String"/>
+        <attribute name="notes" optional="YES" attributeType="String"/>
+        <attribute name="createdAt" attributeType="Date" usesScalarValueType="NO"/>
+        <relationship name="scope" maxCount="1" deletionRule="Nullify" destinationEntity="FinancialScope" inverseName="insurances" inverseEntity="FinancialScope"/>
+        <relationship name="account" maxCount="1" deletionRule="Nullify" destinationEntity="MoneyAccount" inverseName="insurances" inverseEntity="MoneyAccount"/>
+        <relationship name="recurring" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="RecurringTransaction" inverseName="insurance" inverseEntity="RecurringTransaction"/>
+    </entity>
+    <entity name="Asset" representedClassName="AssetMO" syncable="YES">
+        <attribute name="id" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="name" attributeType="String"/>
+        <attribute name="typeRaw" attributeType="String"/>
+        <attribute name="purchasePriceMinor" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="purchaseDate" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="currentValueMinor" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="valuationDate" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="currencyCode" attributeType="String"/>
+        <attribute name="statusRaw" attributeType="String"/>
+        <attribute name="soldAt" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="notes" optional="YES" attributeType="String"/>
+        <attribute name="createdAt" attributeType="Date" usesScalarValueType="NO"/>
+        <relationship name="scope" maxCount="1" deletionRule="Nullify" destinationEntity="FinancialScope" inverseName="assets" inverseEntity="FinancialScope"/>
+        <relationship name="valuations" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="AssetValuation" inverseName="asset" inverseEntity="AssetValuation"/>
+        <relationship name="journal" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Journal" inverseName="asset" inverseEntity="Journal"/>
+        <relationship name="saleJournal" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Journal" inverseName="assetSale" inverseEntity="Journal"/>
+    </entity>
+    <entity name="AssetValuation" representedClassName="AssetValuationMO" syncable="YES">
+        <attribute name="id" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="valueMinor" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="date" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="notes" optional="YES" attributeType="String"/>
+        <attribute name="createdAt" attributeType="Date" usesScalarValueType="NO"/>
+        <relationship name="asset" maxCount="1" deletionRule="Nullify" destinationEntity="Asset" inverseName="valuations" inverseEntity="Asset"/>
+    </entity>
+    <entity name="Reconciliation" representedClassName="ReconciliationMO" syncable="YES">
+        <attribute name="id" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="asOfDate" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="bankBalanceMinor" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="appBalanceMinor" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="createdAt" attributeType="Date" usesScalarValueType="NO"/>
+        <relationship name="account" maxCount="1" deletionRule="Nullify" destinationEntity="MoneyAccount" inverseName="reconciliations" inverseEntity="MoneyAccount"/>
+    </entity>
+</model>

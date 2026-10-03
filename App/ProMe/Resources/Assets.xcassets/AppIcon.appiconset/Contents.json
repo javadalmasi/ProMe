@@ -1,0 +1,20 @@
+{
+  "images" : [
+    {
+      "filename" : "icon-mac-1024.png",
+      "idiom" : "mac",
+      "platform" : "macos",
+      "size" : "1024x1024"
+    },
+    {
+      "filename" : "icon-ios-1024.png",
+      "idiom" : "universal",
+      "platform" : "ios",
+      "size" : "1024x1024"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
