@@ -409,6 +409,8 @@
 		A00000000000000000001F07 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"BUNDLE_LOADER[sdk=iphone*]" = "$(TEST_HOST)";
+				"TEST_HOST[sdk=iphone*]" = "$(BUILT_PRODUCTS_DIR)/ProMe.app/ProMe";
 				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				CODE_SIGN_STYLE = Automatic;
@@ -428,6 +430,8 @@
 		A00000000000000000001F08 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"BUNDLE_LOADER[sdk=iphone*]" = "$(TEST_HOST)";
+				"TEST_HOST[sdk=iphone*]" = "$(BUILT_PRODUCTS_DIR)/ProMe.app/ProMe";
 				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				CODE_SIGN_STYLE = Automatic;

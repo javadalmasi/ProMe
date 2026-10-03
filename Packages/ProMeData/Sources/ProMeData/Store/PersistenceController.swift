@@ -42,18 +42,42 @@ public final class PersistenceController {
     private var deletionObservers: [NSObjectProtocol] = []
     private let pendingDeletions = PendingDeletionBox()
 
+    /// Thread-safe singleton for the compiled model. Loading one instance
+    /// per controller would register the same managed-object subclasses
+    /// against several models ("no unique NSEntityDescription match") and
+    /// make parallel in-memory stores incompatible on open.
+    private static let modelLock = NSLock()
+    private static var cachedModel: NSManagedObjectModel?
+
     public init(inMemory: Bool = false) throws {
         let model = try Self.loadModel()
         container = NSPersistentContainer(name: "ProMe", managedObjectModel: model)
 
-        let storeURL = inMemory ? URL(fileURLWithPath: "/dev/null") : try Self.defaultStoreURL()
-        self.storeURL = inMemory ? nil : storeURL
-        let description = NSPersistentStoreDescription(url: storeURL)
-        description.shouldAddStoreAsynchronously = false
-        description.shouldMigrateStoreAutomatically = true
-        description.shouldInferMappingModelAutomatically = true
-        description.setOption(true as NSNumber, forKey: NSPersistentHistoryTrackingKey)
-        container.persistentStoreDescriptions = [description]
+        if inMemory {
+            // An ephemeral SQLite store in a unique temp file: fully
+            // isolated per coordinator (parallel tests never share a
+            // store) and supporting aggregate GROUP BY fetches, which the
+            // plain NSInMemoryStoreType rejects. storeURL stays nil so
+            // backup/restore refuse ephemeral stores.
+            let temp = FileManager.default.temporaryDirectory
+                .appendingPathComponent("ProMe-ephemeral-\(UUID().uuidString).sqlite")
+            let description = NSPersistentStoreDescription(url: temp)
+            description.type = NSSQLiteStoreType
+            description.shouldAddStoreAsynchronously = false
+            container.persistentStoreDescriptions = [description]
+            Self.pruneEphemeralStores()
+            self.storeURL = nil
+        } else {
+            let storeURL = try Self.defaultStoreURL()
+            self.storeURL = storeURL
+            let description = NSPersistentStoreDescription(url: storeURL)
+            description.type = NSSQLiteStoreType
+            description.shouldAddStoreAsynchronously = false
+            description.shouldMigrateStoreAutomatically = true
+            description.shouldInferMappingModelAutomatically = true
+            description.setOption(true as NSNumber, forKey: NSPersistentHistoryTrackingKey)
+            container.persistentStoreDescriptions = [description]
+        }
 
         let loadError = LoadErrorBox()
         container.loadPersistentStores { _, error in
@@ -128,11 +152,32 @@ public final class PersistenceController {
 
     /// Loads the compiled model that ships inside this package.
     public static func loadModel() throws -> NSManagedObjectModel {
+        Self.modelLock.lock()
+        defer { Self.modelLock.unlock() }
+        if let cachedModel { return cachedModel }
         guard let url = Bundle.module.url(forResource: "ProMe", withExtension: "momd"),
               let model = NSManagedObjectModel(contentsOf: url) else {
             throw DatabaseError.modelNotFound
         }
+        cachedModel = model
         return model
+    }
+
+    /// Best-effort cleanup of ephemeral test stores left behind by earlier
+    /// runs (the OS clears the temp directory eventually; this keeps it tidy).
+    private static func pruneEphemeralStores() {
+        let temp = FileManager.default.temporaryDirectory
+        guard let contents = try? FileManager.default.contentsOfDirectory(
+            at: temp, includingPropertiesForKeys: [.contentModificationDateKey]
+        ) else { return }
+        let cutoff = Date.now.addingTimeInterval(-86_400)
+        for file in contents where file.lastPathComponent.hasPrefix("ProMe-ephemeral-") {
+            let modified = (try? file.resourceValues(forKeys: [.contentModificationDateKey]))?
+                .contentModificationDate ?? .now
+            if modified < cutoff {
+                try? FileManager.default.removeItem(at: file)
+            }
+        }
     }
 
     /// The on-disk store location inside Application Support.
