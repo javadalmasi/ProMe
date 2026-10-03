@@ -1,0 +1,84 @@
+name: Release
+
+on:
+  push:
+    tags: ["v*"]
+
+permissions:
+  contents: write
+
+jobs:
+  macos:
+    name: macOS package
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Select the newest Xcode
+        run: |
+          sudo xcode-select -s "$(ls -d /Applications/Xcode*.app | sort -V | tail -1)/Contents/Developer"
+          xcodebuild -version
+
+      - name: Build Release app (ad-hoc signed)
+        run: |
+          xcodebuild -project ProMe.xcodeproj -scheme ProMe \
+            -configuration Release -destination 'platform=macOS' \
+            -derivedDataPath DerivedData \
+            CODE_SIGN_STYLE=Manual CODE_SIGN_IDENTITY="-" CODE_SIGNING_REQUIRED=YES
+
+      - name: Package app bundle
+        run: |
+          APP=$(ls -d DerivedData/Build/Products/Release/ProMe.app)
+          mkdir -p dist
+          ditto -c -k --keepParent "$APP" dist/ProMe-macOS.zip
+          hdiutil create -volname ProMe -srcfolder "$APP" -ov -format UDZO dist/ProMe-macOS.dmg
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: ProMe-macOS
+          path: dist/
+
+      - name: Attach to release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: dist/*
+          generate_release_notes: true
+
+  ios:
+    name: iOS package
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Select the newest Xcode
+        run: |
+          sudo xcode-select -s "$(ls -d /Applications/Xcode*.app | sort -V | tail -1)/Contents/Developer"
+          xcodebuild -version
+
+      - name: Build unsigned iOS archive
+        run: |
+          xcodebuild -project ProMe.xcodeproj -scheme ProMe \
+            -configuration Release -destination 'generic/platform=iOS' \
+            -derivedDataPath DerivedData archive -archivePath DerivedData/ProMe.xcarchive \
+            CODE_SIGNING_ALLOWED=NO CODE_SIGN_IDENTITY=""
+
+      - name: Package unsigned IPA
+        run: |
+          APP=$(ls -d DerivedData/ProMe.xcarchive/Products/Applications/*.app)
+          mkdir -p dist/Payload
+          cp -R "$APP" dist/Payload/
+          cd dist && zip -qry ProMe-iOS-unsigned.ipa Payload && rm -rf Payload && cd ..
+          ditto -c -k --keepParent DerivedData/ProMe.xcarchive dist/ProMe-iOS.xcarchive.zip
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: ProMe-iOS
+          path: dist/
+
+      - name: Attach to release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: dist/*
+          generate_release_notes: true
